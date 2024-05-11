@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+ background-image: url(./images/blue-background-metal-pattern.webp);
+ width: auto;
+}
+
+.jersey-20-charted-regular {
+  font-family: "Jersey 20 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.Cname{
+  display: flex;
+  align-items: center; 
+  color: white;
+  font-family: "Jersey 20 Charted", sans-serif;
+  font-size: 3vh;
+}
+
+.launch-time{
+    display: flex;
+    color: white;
+    margin-left: 120px;
+}
+
+.launch-time div{
+    flex-basis: 150px;
+}
+
+.launch-time div p{
+    font-size: 50px;
+    margin-bottom:-14px ;
+}
+
+.launch-time h3{
+    margin-top: 20px;
+}
+.card-content{
+    display: flex;
+  }
+
+  .card-title{
+    margin-left: 10px;
+  }
+
+  .card{
+    margin: 50px;
+    margin-left: 100px;
+    box-shadow: 8px 6px 11px -8px;
+  }
+  .card-title p {
+    margin: 0; /* or padding: 0; */
+  }
+
+  .card-img-top {
+        width: 100%;
+        
+        object-fit: cover; 
+  }
+  .team .member{
+    position: relative;
+    
+    box-shadow: 8px 4px 12px 0px;
+    border-radius: 10px;
+    background: #fff;
+  }
+  .team .member .teampic{
+    overflow: hidden;
+    width: 180px;
+    height: 239.39px;
+  }
+  .team .member .member-info{
+    padding-left: 30px;
+  }
+
+  #contact-flow{
+          
+    position:relative;
+    top: 100px;
+    z-index: 1;
+    overflow: visible;
+    
+  }
+  .iconify{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #last-page{
+    overflow: visible;
+
+    position: absolute;
+    left: 0;
+    text-align: center;
+
+  }
+  .paragraph-container {
+    max-width: 50%; 
+    margin: 0 auto; 
+}
+.paragraph-container p {
+    text-align: justify; 
+}
+
+.img-contents{
+    display: flex;
+    margin-left: 150px;
+  }
+
+  .img-contents img{
+      width: 50px;
+      height: 100px;
+  }
+  .img-contents h3{
+    margin-top: 30px;
+    font-size: 20px;
+  }
+ 
